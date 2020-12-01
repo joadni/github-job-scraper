@@ -3,7 +3,7 @@ const { GoogleSpreadsheet } = require('google-spreadsheet');
 module.exports = class Sheet {
     constructor() {
         this.doc = new GoogleSpreadsheet(
-            '1gkB-Hb64KZamK0SsaqwDV-9Aq-3Zr86kguUukZOKjaA'
+            'xxxxxxxxxxxxxxxxxxxxx' // Add Google Spreadsheet ID here
         );
     }
 
@@ -17,12 +17,3 @@ module.exports = class Sheet {
         await sheet.addRows(rows);
     }
 };
-
-// (async function () {
-//     const sheet = new Sheet();
-//     await sheet.load();
-//     await sheet.addRows([
-//         { title: 'Software Engineer', location: 'SF' },
-//         { title: 'Designer', location: 'NY' },
-//     ]);
-// })();
