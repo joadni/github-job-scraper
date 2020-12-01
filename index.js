@@ -41,7 +41,3 @@ async function scrapePage(i) {
 
     await sheet.addRows(rows);
 })();
-
-// Extra tasks
-// Make a function that sort by date
-// Filter for specific jobs. Ex: Only JavaScript jobs
